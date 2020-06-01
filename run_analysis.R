@@ -48,7 +48,7 @@ measures_mean<- grep ( "mean", colnames(data), ignore.case = TRUE )
 measures_std<- grep ( "std", colnames(data), ignore.case = TRUE)
 data_mean_std <- data[ c ( 1:3, measures_mean, measures_std ) ]
 
-# reshape2
+# reshape2  
 library (reshape2)
 
 # melt data set
